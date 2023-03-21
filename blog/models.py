@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
 
-STATUS = ((0, "Draft"), (1, "Pub;ished"))
+STATUS = ((0, "Draft"), (1, "Pubished"))
 
 
 class Post(models.Model):
